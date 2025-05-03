@@ -204,11 +204,17 @@
   .relative {
     position: relative;
   }
+  .sticky {
+    position: sticky;
+  }
   .inset-0 {
     inset: calc(var(--spacing) * 0);
   }
   .inset-y-0 {
     inset-block: calc(var(--spacing) * 0);
+  }
+  .top-0 {
+    top: calc(var(--spacing) * 0);
   }
   .top-full {
     top: 100%;
@@ -420,6 +426,12 @@
   .w-180 {
     width: calc(var(--spacing) * 180);
   }
+  .w-auto {
+    width: auto;
+  }
+  .w-fit {
+    width: fit-content;
+  }
   .w-full {
     width: 100%;
   }
@@ -598,11 +610,35 @@
   .bg-yellow-500 {
     background-color: var(--color-yellow-500);
   }
+  .bg-\[url\(\'\'\)\] {
+    background-image: url('');
+  }
   .bg-\[url\(\'\/icons\/portada-new\.png\'\)\] {
     background-image: url('/icons/portada-new.png');
   }
+  .bg-\[url\(\'\/img\/certificadoAPhover\.png\'\)\] {
+    background-image: url('/img/certificadoAPhover.png');
+  }
+  .bg-\[url\(\'\/img\/citaenlineahover\.png\'\)\] {
+    background-image: url('/img/citaenlineahover.png');
+  }
+  .bg-\[url\(\'\/img\/citasenlineahover\.png\'\)\] {
+    background-image: url('/img/citasenlineahover.png');
+  }
+  .bg-\[url\(\'\/img\/copiacertihover\.png\'\)\] {
+    background-image: url('/img/copiacertihover.png');
+  }
+  .bg-\[url\(\'\/img\/denunciahover\.png\'\)\] {
+    background-image: url('/img/denunciahover.png');
+  }
+  .bg-\[url\(\'\/img\/mesadigitalhover\.png\'\)\] {
+    background-image: url('/img/mesadigitalhover.png');
+  }
   .bg-cover {
     background-size: cover;
+  }
+  .bg-fixed {
+    background-attachment: fixed;
   }
   .bg-center {
     background-position: center;
@@ -766,6 +802,13 @@
       }
     }
   }
+  .hover\:bg-fondo {
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--color-fondo);
+      }
+    }
+  }
   .hover\:bg-red-400 {
     &:hover {
       @media (hover: hover) {
@@ -791,6 +834,13 @@
     &:hover {
       @media (hover: hover) {
         fill: var(--color-white);
+      }
+    }
+  }
+  .hover\:text-verde-oscuro {
+    &:hover {
+      @media (hover: hover) {
+        color: var(--color-verde-oscuro);
       }
     }
   }
