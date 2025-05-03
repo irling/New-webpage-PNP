@@ -175,11 +175,13 @@
 
         <div class="flex flex-col items-center space-y-4 my-10">
           <div class="flex space-x-8 gap-4">
+            <!--CONTENIDO COMPLETO CON HOVER-->
+
             <div
               class="relative group flex items-center mx-auto justify-center w-120 h-100 shadow-2xl rounded-[40px] bg-blanco overflow-hidden"
             >
               <!-- Contenido visible (ícono y texto) -->
-              <div class="flex flex-col text-center z-10">
+              <div class="flex flex-col text-center">
                 <div>
                   <img
                     class="w-40 mx-auto mb-5"
@@ -197,7 +199,7 @@
 
               <!-- Capa de hover -->
               <div
-                class="absolute inset-0 bg-[url('/icons/portada-new.png')] bg-opacity-60 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-20"
+                class="absolute inset-0 bg-[url('/img/certificadoAPhover.png')] bg-cover bg-center flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-20"
               >
                 <p class="text-white mb-4 text-center text-3xl font-semibold">
                   Obten tu certificado <br />
@@ -205,15 +207,17 @@
                   y segura en línea.
                 </p>
                 <button
-                  class="bg-verde-claro text-blanco font-bold px-4 py-2 rounded-xl cursor-pointer"
+                  class="bg-verde-claro text-blanco font-bold px-4 py-2 rounded-xl cursor-pointer hover:bg-fondo duration-300 hover:text-verde-oscuro"
                 >
                   <p class="text-2xl">SOLICITAR AHORA</p>
                 </button>
               </div>
             </div>
+            <!---------------------------------------------------->
 
+            <!--DENUNCIA POLICIAL-->
             <div
-              class="flex items-center mx-auto justify-center w-120 h-100 shadow-2xl rounded-[40px] bg-blanco cursor-pointer"
+              class="relative group flex items-center mx-auto justify-center w-120 h-100 shadow-2xl rounded-[40px] bg-blanco overflow-hidden"
             >
               <div class="flex flex-col text-center">
                 <div>
@@ -230,9 +234,29 @@
                   </h1>
                 </div>
               </div>
+
+              <!--DENUNCIA POLICIAL --- HOVER -->
+              <div
+                class="absolute inset-0 bg-[url('/img/denunciahover.png')] bg-cover bg-center bg- opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-center justify-center"
+              >
+                <p class="text-white mb-4 text-center text-3xl font-semibold">
+                  Realiza tu denuncia <br />
+                  policla fácil y rápido, <br />
+                  desde cualquier lugar.
+                </p>
+                <button
+                  class="bg-verde-claro text-blanco font-bold px-4 py-2 rounded-xl cursor-pointer hover:bg-fondo duration-300 hover:text-verde-oscuro"
+                >
+                  <p class="text-2xl">INICIAR DENUNCIA</p>
+                </button>
+              </div>
             </div>
+
+            <!---------------------------------------------------->
+
+            <!--COPIA CERTIFICADA-->
             <div
-              class="flex items-center mx-auto justify-center w-120 h-100 shadow-2xl rounded-[40px] bg-blanco cursor-pointer"
+              class="relative group flex items-center mx-auto justify-center w-120 h-100 shadow-2xl rounded-[40px] bg-blanco overflow-hidden"
             >
               <div class="flex flex-col text-center">
                 <div>
@@ -249,11 +273,31 @@
                   </h1>
                 </div>
               </div>
+
+              <div
+                class="absolute inset-0 bg-[url('/img/copiacertihover.png')] bg-center opacity-0 bg-cover group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-center justify-center"
+              >
+                <p class="text-white mb-4 text-center text-3xl font-semibold">
+                  Obtén una copia certificada <br />
+                  de tu denuncia policial <br />
+                  presentada en linea.
+                </p>
+                <button
+                  class="bg-verde-claro text-blanco font-bold px-4 py-2 rounded-xl cursor-pointer hover:bg-fondo duration-300 hover:text-verde-oscuro"
+                >
+                  <p class="text-2xl">SOLICITA AHORA</p>
+                </button>
+              </div>
             </div>
           </div>
+
+          <!---------------------------------------------------->
+
+          <!--MESA DE PARTES-->
+
           <div class="flex space-x-8 mt-2 gap-4">
             <div
-              class="flex items-center mx-auto justify-center w-120 h-100 shadow-2xl rounded-[40px] bg-blanco cursor-pointer"
+              class="relative group flex items-center mx-auto justify-center w-120 h-100 shadow-2xl rounded-[40px] bg-blanco overflow-hidden"
             >
               <div class="flex flex-col text-center">
                 <div>
@@ -270,9 +314,29 @@
                   </h1>
                 </div>
               </div>
+
+              <div
+                class="absolute inset-0 bg-[url('/img/mesadigitalhover.png')] bg-cover bg-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-center justify-center"
+              >
+                <p class="text-white mb-4 text-center text-3xl font-semibold">
+                  Envia documentos <br />
+                  y solicitudes a la Policia <br />
+                  de forma digital, rápida <br />
+                  y segura.
+                </p>
+                <button
+                  class="bg-verde-claro text-blanco font-bold px-4 py-2 rounded-xl cursor-pointer hover:bg-fondo duration-300 hover:text-verde-oscuro"
+                >
+                  <p class="text-2xl">TRAMITAR</p>
+                </button>
+              </div>
             </div>
+
+            <!---------------------------------------------------->
+
+            <!--CITAS EN LINEA-->
             <div
-              class="flex items-center mx-auto justify-center w-120 h-100 shadow-2xl rounded-[40px] bg-blanco cursor-pointer"
+              class="relative group flex items-center mx-auto justify-center w-120 h-100 shadow-2xl rounded-[40px] bg-blanco overflow-hidden"
             >
               <div class="flex flex-col text-center">
                 <div>
@@ -288,6 +352,20 @@
                     Lunas oscuras
                   </h1>
                 </div>
+              </div>
+
+              <div
+                class="absolute inset-0 bg-[url('/img/citaenlineahover.png')] bg-cover bg-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-center justify-center"
+              >
+                <p class="text-white mb-4 text-center text-3xl font-semibold">
+                  Agenda tu cita en línea <br />
+                  para trámites policiales <br />
+                  sin colas ni demoras.
+                </p>
+                <button
+                  class="bg-verde-claro text-blanco font-bold px-4 py-2 rounded-xl cursor-pointer hover:bg-fondo duration-300 hover:text-verde-oscuro">
+                  <p class="text-2xl">AGENDAR</p>
+                </button>
               </div>
             </div>
           </div>
