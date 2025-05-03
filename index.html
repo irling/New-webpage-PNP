@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/output.css" />
+    <title>Noo0o0o la policcziia</title>
+  </head>
+  <body class="scroll-smooth">
+    <div class="grid grid-cols-1">
+      <div class="nav border-2 border-black h-full bg-verde-oscuro">
+        <div class="flex mx-5 my-5 items-center justify-center">
+          <div>
+            <img class="w-50" src="icons/logo_policia.svg" alt="" />
+          </div>
+          <div class="ml-auto flex items-center justify-center">
+            <div>
+              <div class="relative mt-2 w-80">
+                <input
+                  class="border border-gray-300 rounded-xl py-1 pl-10 pr-2 w-full text-gray-500 bg-blanco"
+                  type="search"
+                  placeholder="Buscar"
+                />
+                <div class="absolute inset-y-0 left-0 flex items-center ml-2">
+                  <img class="w-4" src="icons/lupa.svg" alt="" />
+                </div>
+              </div>
+            </div>
+
+            <div class="flex mx-auto justify-center items-center">
+              <div class="relative">
+                <a href="#" id="toggleSelectUser">
+                  <img
+                    class="w-12 ml-5 cursor-pointer"
+                    src="icons/usuario.svg"
+                    alt="usuario"
+                  />
+                </a>
+
+                <div
+                  id="userOptionsUser"
+                  class="absolute w-32 top-full left-0 mt-5 hidden bg-white border rounded shadow-md"
+                >
+                  <div class="flex flex-col">
+                    <div class="hover:bg-verde-claro p-2">
+                      <a class="font-semibold" href="">Iniciar sesion</a>
+                    </div>
+                    <div class="hover:bg-verde-claro p-2">
+                      <a class="font-semibold" href="">Mis solicitudes</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="w-px h-8 bg-white mx-5"></div>
+
+              <div class="relative">
+                <a href="#" id="toggleSelectIdioma">
+                  <img
+                    class="w-12 cursor-pointer"
+                    src="icons/idioma.svg"
+                    alt="usuario"
+                  />
+                </a>
+
+                <div
+                  id="userOptionsIdioma"
+                  class="absolute w-35 top-full right-0 mt-2 hidden bg-white border rounded shadow-md"
+                >
+                  <div class="flex flex-col">
+                    <div class="hover:bg-verde-claro p-2">
+                      <a class="font-semibold" href="">Español</a>
+                    </div>
+                    <div class="hover:bg-verde-claro p-2">
+                      <a class="font-semibold" href="">Quechua</a>
+                    </div>
+                    <div class="hover:bg-verde-claro p-2">
+                      <a class="font-semibold" href="">Shipibo Konibo</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="bg-[url('/icons/portada-new.png')] h-screen bg-cover bg-center bg-no-repeat text-white items-center px-10 w-full"
+      >
+        <div class="flex my-auto h-screen items-center">
+          <div class="ml-30 w-180">
+            <h1 class="text-9xl font-bold leading-tight">
+              SERVICIOS <br />
+              POLICIALES <br />
+              DIGITALES
+            </h1>
+            <p class="text-yellow-400 mt-4 text-5xl italic">
+              Acortando tiempo y distancia
+            </p>
+            <hr class="w-145 mt-5 font-bold text-amarillo-claro" />
+            <hr class="w-145 font-bold text-amarillo-claro" />
+
+            <p class="mt-2 text-2xl font-light">
+              Accede a servicios policiales en línea de forma rápida, segura y
+              disponible las 24 horas
+            </p>
+
+            <button
+              class="mt-6 bg-amarillo-claro text-black font-semibold py-2 px-4 rounded-xl cursor-pointer hover:bg-yellow-300"
+            >
+              CONOCE MÁS AQUÍ
+            </button>
+          </div>
+          <div class="ml-auto mt-auto mb-15">
+            <div class="flex flex-col">
+              <div
+                class="flex items-center justify-center rounded-full h-10 w-10 bg-blanco hover:bg-verde-claro transition-colors duration-300"
+              >
+                <a href="https://www.instagram.com" class="group w-7 h-7">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 38.74 38.74"
+                    class="w-full h-full fill-verde-oscuro group-hover:fill-white transition-colors duration-300"
+                  >
+                    <circle cx="19.37" cy="19.37" r="19.37" />
+                    <path
+                      d="M21.51,31.71V20.91h3.6l.69-4.47H21.51v-2.9A2.23,2.23,0,0,1,24,11.13H26V7.33A23.94,23.94,0,0,0,22.52,7C19,7,16.68,9.17,16.68,13v3.4H12.76v4.47h3.92v10.8Z"
+                    />
+                  </svg>
+                </a>
+              </div>
+
+              <div
+                class="flex items-center mx-auto justify-center bg-blanco rounded-[50px] h-10 w-10 hover:bg-verde-claro mt-2 mb-2"
+              >
+                <a href="https://www.instagram.com">
+                  <img class="w-7 hover:fill-white" src="icons/ig.svg" alt="" />
+                </a>
+              </div>
+
+              <div
+                class="flex items-center mx-auto justify-center bg-blanco rounded-[50px] h-10 w-10 hover:bg-red-400 mb-2"
+              >
+                <a href="https://www.youtube.com"
+                  ><img class="w-8" src="icons/yt.svg" alt=""
+                /></a>
+              </div>
+              <div
+                class="flex items-center mx-auto justify-center bg-blanco rounded-[50px] h-10 w-10 hover:bg-red-400"
+              >
+                <a href="https://www.tiktok.com"
+                  ><img class="w-5" src="icons/tiktok.svg" alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!---->
+      <div class="bg-rojo">
+        <h1 class="text-blanco font-bold text-center my-2 text-3xl">
+          ● TU SEGURIDAD EMPIEZA AQUÍ ●
+        </h1>
+      </div>
+
+      <div class="tramite bg-fondo pb-5">
+        <div class="text-center my-10">
+          <h1 class="text-5xl mb-3">Inicia tu trámite</h1>
+          <h1 class="text-5xl">
+            A UN
+            <span class="text-verde-oscuro font-bold italic">SOLO CLICK</span>
+          </h1>
+        </div>
+
+        <div class="flex flex-col items-center space-y-4 my-10">
+          <div class="flex space-x-8 gap-4">
+            <div
+              class="relative group flex items-center mx-auto justify-center w-120 h-100 shadow-2xl rounded-[40px] bg-blanco overflow-hidden"
+            >
+              <!-- Contenido visible (ícono y texto) -->
+              <div class="flex flex-col text-center z-10">
+                <div>
+                  <img
+                    class="w-40 mx-auto mb-5"
+                    src="icons/ceritificado de antecedentedes policiales.svg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h1 class="text-4xl text-verde-oscuro font-semibold">
+                    Certificado de <br />
+                    Antecedentes Policiales
+                  </h1>
+                </div>
+              </div>
+
+              <!-- Capa de hover -->
+              <div
+                class="absolute inset-0 bg-[url('/icons/portada-new.png')] bg-opacity-60 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-20"
+              >
+                <p class="text-white mb-4 text-center text-3xl font-semibold">
+                  Obten tu certificado <br />
+                  digital de forma rápida <br />
+                  y segura en línea.
+                </p>
+                <button
+                  class="bg-verde-claro text-blanco font-bold px-4 py-2 rounded-xl cursor-pointer"
+                >
+                  <p class="text-2xl">SOLICITAR AHORA</p>
+                </button>
+              </div>
+            </div>
+
+            <div
+              class="flex items-center mx-auto justify-center w-120 h-100 shadow-2xl rounded-[40px] bg-blanco cursor-pointer"
+            >
+              <div class="flex flex-col text-center">
+                <div>
+                  <img
+                    class="w-60 mx-auto mb-5"
+                    src="icons/denuncia policial digital.svg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h1 class="text-4xl text-verde-oscuro font-semibold">
+                    Denuncia <br />
+                    Policia Digital
+                  </h1>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex items-center mx-auto justify-center w-120 h-100 shadow-2xl rounded-[40px] bg-blanco cursor-pointer"
+            >
+              <div class="flex flex-col text-center">
+                <div>
+                  <img
+                    class="w-45 mx-auto mb-5"
+                    src="icons/copia certificada de denuncia digital.svg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h1 class="text-4xl text-verde-oscuro font-semibold">
+                    Copia Certificada de <br />
+                    Denuncia Digital
+                  </h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex space-x-8 mt-2 gap-4">
+            <div
+              class="flex items-center mx-auto justify-center w-120 h-100 shadow-2xl rounded-[40px] bg-blanco cursor-pointer"
+            >
+              <div class="flex flex-col text-center">
+                <div>
+                  <img
+                    class="w-38 mx-auto mb-5"
+                    src="icons/mesa de partes.svg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h1 class="text-4xl text-verde-oscuro font-semibold">
+                    Mesa de partes<br />
+                    Digital Policial
+                  </h1>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex items-center mx-auto justify-center w-120 h-100 shadow-2xl rounded-[40px] bg-blanco cursor-pointer"
+            >
+              <div class="flex flex-col text-center">
+                <div>
+                  <img
+                    class="w-30 mx-auto mb-5"
+                    src="icons/citas en línea .svg"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h1 class="text-4xl text-verde-oscuro font-semibold">
+                    Citas en Linea - <br />
+                    Lunas oscuras
+                  </h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="info border-2 border-black h-full">4</div>
+      <div class="footer border-2 border-black h-full">5</div>
+    </div>
+    <script src="js/index.js"></script>
+  </body>
+</html>
