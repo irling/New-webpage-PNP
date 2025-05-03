@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@layer utilities {
+    @keyframes marquee {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(-100%); }
+    }
+  
+    .animate-marquee {
+      animation: marquee 10s linear infinite;
+    }
+}
+
+@theme{
+    --color-verde-oscuro: #103938;
+    --color-verde: #104A38;
+    --color-verde-claro: #4C9B82;
+    --color-amarillo-claro: #F2CF6B;
+    --color-blanco: #F8F8F8;
+    --color-rojo: #A02013;
+    --color-marron: #3E2D28;
+    --color-fondo:#E2ECE9;
+}
