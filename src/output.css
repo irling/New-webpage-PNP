@@ -57,6 +57,7 @@
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
     --color-verde-oscuro: #103938;
+    --color-verde: #104A38;
     --color-verde-claro: #4C9B82;
     --color-amarillo-claro: #F2CF6B;
     --color-blanco: #F8F8F8;
@@ -672,6 +673,9 @@
   .bg-rojo {
     background-color: var(--color-rojo);
   }
+  .bg-verde {
+    background-color: var(--color-verde);
+  }
   .bg-verde-claro {
     background-color: var(--color-verde-claro);
   }
@@ -743,6 +747,9 @@
   }
   .py-5 {
     padding-block: calc(var(--spacing) * 5);
+  }
+  .py-10 {
+    padding-block: calc(var(--spacing) * 10);
   }
   .pt-1 {
     padding-top: calc(var(--spacing) * 1);
@@ -953,6 +960,13 @@
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-verde-claro);
+      }
+    }
+  }
+  .hover\:bg-verde-oscuro {
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--color-verde-oscuro);
       }
     }
   }
