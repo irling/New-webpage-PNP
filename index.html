@@ -85,7 +85,84 @@
           </div>
         </div>
       </div>
-      <div
+       <!-- Contenedor de imágenes -->
+       <div class="relative w-full h-240 overflow-hidden rounded-md">
+
+        <!-- Texto superpuesto (centrado) -->
+        <div class="absolute inset-0 z-20 flex items-center justify-center">
+          <div class="text-white items-center px-10 w-full">
+            <div class="flex my-auto h-screen items-center">
+              <div class="ml-30 w-180" id="carousel-text">
+                <!-- ESTE CONTENIDO CAMBIARÁ -->
+                <h1 class="text-9xl font-bold leading-tight">
+                  SERVICIOS <br />
+                  POLICIALES <br />
+                  DIGITALES
+                </h1>
+                <p class="text-yellow-400 mt-4 text-5xl italic">
+                  Acortando tiempo y distancia
+                </p>
+                <hr class="w-145 mt-5 font-bold text-amarillo-claro" />
+                <hr class="w-145 font-bold text-amarillo-claro" />
+      
+                <p class="mt-2 text-2xl font-light">
+                  Accede a servicios policiales en línea de forma rápida, segura y
+                  disponible las 24 horas
+                </p>
+      
+                <button
+                  class="mt-6 bg-amarillo-claro text-black font-semibold py-2 px-4 rounded-xl cursor-pointer hover:bg-fondo hover:text-verde-oscuro hover:font-bold">
+                  CONOCE MÁS AQUÍ
+                </button>
+              </div>
+      
+              <!-- Redes sociales -->
+              <div class="ml-auto mt-auto mb-15">
+                <div class="flex flex-col">
+                  <div class="flex items-center mx-auto justify-center bg-blanco rounded-[50px] h-10 w-10 hover:bg-fondo">
+                    <a href="https://www.instagram.com">
+                      <img class="w-3.5 hover:fill-white" src="icons/fb_1.svg" alt="" />
+                    </a>
+                  </div>
+                  <div
+                    class="flex items-center mx-auto justify-center bg-blanco rounded-[50px] h-10 w-10 hover:bg-fondo-claro mt-2 mb-2">
+                    <a href="https://www.instagram.com">
+                      <img class="w-7 hover:fill-white" src="icons/ig.svg" alt="" />
+                    </a>
+                  </div>
+                  <div class="flex items-center mx-auto justify-center bg-blanco rounded-[50px] h-10 w-10 hover:bg-fondo mb-2">
+                    <a href="https://www.youtube.com">
+                      <img class="w-8" src="icons/yt.svg" alt="" />
+                    </a>
+                  </div>
+                  <div class="flex items-center mx-auto justify-center bg-blanco rounded-[50px] h-10 w-10 hover:bg-fondo">
+                    <a href="https://www.tiktok.com">
+                      <img class="w-5" src="icons/tiktok.svg" alt="" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Paginación -->
+        <div class="absolute bottom-3 left-0 right-0 flex justify-center z-20 space-x-2">
+          <button class="carousel-btn w-5 h-5 rounded-full bg-gray-400 cursor-pointer hover:bg-blue-400" onclick="showImage(0)"></button>
+          <button class="carousel-btn w-5 h-5 rounded-full bg-gray-400 cursor-pointer hover:bg-blue-400" onclick="showImage(1)"></button>
+          <button class="carousel-btn w-5 h-5 rounded-full bg-gray-400 cursor-pointer hover:bg-blue-400" onclick="showImage(2)"></button>
+        </div>
+      
+        <!-- Imágenes del carrusel -->
+        <img src="img/certificadoAPhover.png"
+          class="carousel-img absolute inset-0 w-full h-full object-cover opacity-100 transition-opacity duration-700" />
+        <img src="img/citaenlineahover.png"
+          class="carousel-img absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-700" />
+        <img src="img/copiacertihover.png"
+          class="carousel-img absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-700" />
+      </div>
+      
+      <!-- <div
         class="bg-[url('/icons/portada-new.png')] h-screen bg-cover bg-center bg-no-repeat text-white items-center px-10 w-full"
       >
         <div class="flex my-auto h-screen items-center">
@@ -148,17 +225,17 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <!---->
       <div class="bg-rojo">
-        <h1 class="text-blanco font-bold text-center my-2 text-3xl">
+        <h1 class="text-blanco font-bold text-center text-3xl">
           ● TU SEGURIDAD EMPIEZA AQUÍ ●
         </h1>
       </div>
 
       <div class="tramite bg-fondo pb-5">
-        <div class="text-center my-10">
+        <div class="text-center mb-10 pt-10">
           <h1 class="text-5xl mb-3">Inicia tu trámite</h1>
           <h1 class="text-5xl">
             A UN
@@ -585,6 +662,8 @@
         </div>
       </div>
     </div>
+
+    
 
     <script src="js/index.js"></script>
   </body>
