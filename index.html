@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/output.css" />
-    <link rel="shortcut icon" href="icons/icon_peru.png" type="image/x-icon">
+    <link rel="shortcut icon" href="icons/icon_peru.png" type="image/x-icon" />
     <title>Noo0o0o la policcziia</title>
   </head>
   <body class="scroll-smooth">
@@ -364,7 +364,8 @@
                   sin colas ni demoras.
                 </p>
                 <button
-                  class="bg-verde-claro text-blanco font-bold px-4 py-2 rounded-xl cursor-pointer hover:bg-fondo duration-300 hover:text-verde-oscuro">
+                  class="bg-verde-claro text-blanco font-bold px-4 py-2 rounded-xl cursor-pointer hover:bg-fondo duration-300 hover:text-verde-oscuro"
+                >
                   <p class="text-2xl">AGENDAR</p>
                 </button>
               </div>
@@ -372,9 +373,134 @@
           </div>
         </div>
       </div>
-      <div class="info border-2 border-black h-full">4</div>
-      <div class="footer border-2 border-black h-full">5</div>
+
+      <div class="h-full">
+        <div class="grid grid-cols-2 pt-15">
+          <div>
+            <div
+              class="relative w-full h-screen bg-white flex items-center justify-center overflow-hidde"
+            >
+              <!-- Círculo grande detrás -->
+              <div
+                class="absolute w-140 h-140 bg-yellow-400 rounded-full"
+              ></div>
+
+              <!-- Imagen PNG (chica) -->
+              <img
+                src="icons/chicaTramite.png"
+                alt="Chica policía"
+                class="relative z-10 max-h-max"
+              />
+
+              <!-- Círculos pequeños decorativos -->
+              <div class="absolute top-10 right-16 flex flex-col gap-2 z-20">
+                <div class="relative left-2 bottom-5 w-5 h-5 bg-yellow-400 rounded-full"></div>
+                <div class="relative right-30 bottom-5 w-8 h-8 bg-yellow-400 rounded-full"></div>
+                <div class="relative right-58 bottom-0 w-10 h-10 bg-yellow-400 rounded-full"></div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="flex items-center justify-center flex-col mb-auto">
+            <!--TITULO DE TRAMITES-->
+            <div class="mb-15">
+              <h1
+                class="text-6xl font-bold italic text-verde-oscuro text-center"
+              >
+                Vas hacer un trámite?
+              </h1>
+              <p class="text-5xl">
+                ¡Sigue estos pasos y gestiónalo facilmente!
+              </p>
+            </div>
+            <!---->
+
+            <!--SUBTITULOS E INFORMACION DE TRAMITES.-->
+              <div class="relative inline-block group border-2 border-black rounded-[40px] w-200 ">
+                <div class="p-10 ">
+                    <div>
+                        <h1 class="text-5xl font-bold pl-5">CREA TU USUARIO</h1>
+                    </div>
+  
+                    <div
+                      class="absolute inset-0 bg-amarillo-claro rounded-[40px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 pt-5"
+                    >
+                      <p class="text-3xl font-semibold pl-15 pt-2">
+                        Regístrate para acceder a nuestros servicios <br />
+                        digitales de forma personalizada y segura.
+                      </p>
+  
+                    </div>
+                    
+                    <div class="absolute flex items-center justify-center rounded-[50px] bg-verde-oscuro text-white bottom-1/6 -left-10 w-22 h-22 overflow-hidden">
+                    <h1 class="text-7xl text-center mx-auto font-bold h-20">1</h1>
+                    </div>
+                </div>
+              </div>
+
+
+              <div class="relative inline-block group border-2 border-black rounded-[40px] w-200 my-20">
+
+                <div class="py-5">
+                  <div class="pl-15">
+                    <h1 class="text-5xl font-bold">PAGA TU TRÁMITE</h1>
+                    <h2 class="font-semibold text-3xl">
+                      Sólo para estos servicios:
+                    </h2>
+                    <p class="text-3xl">
+                      Certificado de antecendes Policiales <br />
+                      Copia certificada de Denuncias Policiales <br />
+                      Permisos Vehiculares.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="absolute inset-0 rounded-[40px] bg-amarillo-claro opacity-0 group-hover:opacity-100 transition-opacity duration-300 pt-13">
+                  <p class="text-3xl font-semibold pl-15 pt-2">
+                    Paga tu trámite en <span class="italic font-semibold">Pagalo.pe</span> <br>
+                    si no necesitas adquirir cualquiera de los <br>
+                    servicios mencionados omite este paso.
+                  </p>
+                </div>
+
+                <div class="absolute flex items-center justify-center rounded-[50px] bg-verde-oscuro text-white bottom-1/3 -left-10 w-22 h-22 overflow-hidden">
+                  <h1 class="text-7xl text-center mx-auto font-bold h-20">2</h1>
+                </div>
+
+              </div>
+
+              <div class="relative inline-block group border-2 border-black rounded-[40px] w-200 ">
+                <div class="p-10">
+                    <div class="py-5">
+                        <h1 class="text-5xl font-bold pl-5">INICIA TU TRAMITE</h1>
+                    </div>
+  
+                    <div
+                      class="absolute inset-0 bg-amarillo-claro rounded-[40px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 pt-5"
+                    >
+                      <p class="text-4xl font-semibold pl-15 pt-1">
+                        Accede al sistema y gestiona tu denuncia, <br>
+                        cita, certificado u otros trámites policiales <br>
+                        en línea.
+                      </p>
+  
+                    </div>
+                    
+                    <div class="absolute flex items-center justify-center rounded-[50px] bg-verde-oscuro text-white bottom-1/4 -left-10 w-22 h-22 overflow-hidden">
+                    <h1 class="text-7xl text-center mx-auto font-bold h-20">3</h1>
+                    </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="info2 border-2 border-black h-full">5</div>
+      <div class="footer border-2 border-black h-full">6</div>
     </div>
+
     <script src="js/index.js"></script>
   </body>
 </html>
