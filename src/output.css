@@ -1066,6 +1066,9 @@
   .text-green-900 {
     color: var(--color-green-900);
   }
+  .text-verde-claro {
+    color: var(--color-verde-claro);
+  }
   .text-verde-oscuro {
     color: var(--color-verde-oscuro);
   }
